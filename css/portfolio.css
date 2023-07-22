@@ -1,0 +1,49 @@
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+section{
+    font-family:fantasy;
+    font-size: 1000%;
+    color:white;
+    text-align:center; 
+    padding-top: 150px;
+}
+div{
+    font-size:100%;
+    text-align:center;
+    color:white;   
+}
+#small-title{
+  color:darkgray;
+  text-align: center;
+  font-size: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: 500px;
+}
+.animated-text span {
+    display: inline-block;
+    animation: bounce 1.5s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-10px);
+      letter-spacing: -0.1em;
+      }
+    }
+
+    
